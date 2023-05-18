@@ -1,0 +1,13 @@
+type Record {
+    State: String!,
+    City: String!,
+    NO2_AQI: Int,
+    CO2_AQI: Int,
+    SO2_AQI: Int,
+    Date_Local: String!,
+}
+
+type Query {
+    allRecords: [Record],
+    recordsByState(State: String!): [Record]
+}
