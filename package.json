@@ -1,0 +1,11 @@
+{
+  "name": "aqi-viz",
+  "version": "1.0.0",
+  "description": "exploration of graphql and d3.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
